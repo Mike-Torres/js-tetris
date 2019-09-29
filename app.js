@@ -12,7 +12,7 @@ var pieces = [
   createSPiece,
   createSqPiece,
   createLongPiece,
-  createZPiece, ///fdsfdsfs
+  createZPiece, ///fdsfdsfsdsafsfd
   createTPiece,
   createLPiece,
   createRevPiece
