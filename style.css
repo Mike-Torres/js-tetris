@@ -1,0 +1,278 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-image: url(solar.jpg);
+}
+
+canvas{
+  margin-top: 15px;
+  width: 520px;
+  height: 520px;
+  background-image: url(solar4.jpg);
+}
+
+#board div {
+    background-color: black;
+    border: 1px solid grey;
+    box-sizing: border-box;
+    float: left;
+    width: 24px;
+    height: 24px;
+}
+
+.gameboy{
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  text-align: center;
+  height: 960px;
+  width: 640px;
+  background: #fbc610;
+  border-radius: 25px;
+  margin-top: 5px;
+  display: block;
+  border: 2px black;
+}
+
+.reset {
+  background: #fbc610;
+}
+button {
+margin: 15px;
+}
+
+.absolute{
+  position: absolute;
+}
+
+.text-dec{
+  text-decoration: underline;
+}
+
+#score{
+  position: absolute;
+  background: none;
+  font-family: fantasy;
+  font-size: 28px;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+  list-style-type: none;
+  color: white;
+  margin-top: 20px;
+  width: 1000px;
+  z-index: 2;
+}
+
+#level{
+  position: absolute;
+  background: none;
+  font-family: fantasy;
+  font-size: 28px;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+  list-style-type: none;
+  color: white;
+  margin-top: 140px;
+  width: 1000px;
+  z-index: 2;
+}
+
+#lines{
+  position: absolute;
+  background: none;
+  font-family: fantasy;
+  font-size: 28px;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+  list-style-type: none;
+  color: white;
+  margin-top: 270px;
+  width: 1000px;
+  z-index: 2;
+}
+
+#next{
+  position: absolute;
+  background: none;
+  font-family: fantasy;
+  font-size: 28px;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+  list-style-type: none;
+  color: white;
+  margin-top: 400px;
+  width: 1000px;
+  z-index: 2;
+}
+
+.scoreboards{
+  text-decoration: underline;
+}
+
+#left{
+    height: 100px;
+    width: 100px;
+    margin-top: 770px;
+    margin-left: 30px;
+    background: black;
+    outline: none;
+}
+
+#left-right{
+  height: 100px;
+  width: 100px;
+  margin-top: 770px;
+  margin-left: 230px;
+  background: black;
+  outline: none;
+}
+
+#up{
+  height: 100px;
+  width: 100px;
+  margin-top: 673px;
+  margin-left: 130px;
+  background: black;
+  outline: none;
+}
+
+#down{
+  height: 100px;
+  width: 100px;
+  margin-top: 868px;
+  margin-left: 130px;
+  background: black;
+  outline: none;
+}
+
+#buttonstart{
+   background: blue;
+   height: 65px;
+   width: 65px;
+   border-color: black;
+   border-width: 2px;
+   border-style: solid;
+   border-radius: 50%;
+   outline: none;
+ }
+
+ #button1 {
+  background: red;
+  height: 65px;
+  width: 65px;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 50%;
+  outline: none;
+}
+
+#button2 {
+  background: #423638;
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  outline: none;
+}
+#button3 {
+  background: #423638;
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  outline: none;
+}
+
+#button4{
+  background: #9e2658;
+  height: 135px;
+  width: 135px;
+  border-radius: 50%;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  margin-left: 419px;
+  outline: none;
+}
+
+#button5{
+  background: #9e2658;
+  height: 135px;
+  width: 135px;
+  border-radius: 50%;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  margin-left: 340px;
+  padding-bottom: 20px;
+  outline: none;
+}
+
+#pause{
+  position: absolute;
+  background: none;
+  font-family: fantasy;
+  font-size: 60px;
+  font-weight: bold;
+  font-style: italic;
+  list-style-type: none;
+  color: rgb(245, 9, 186);
+  margin-top: 200px;
+  margin-left: 170px;
+  width: 100px;
+  z-index: 2;
+}
+
+.bold {
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
+.bolds {
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+  float: right;
+}
+.block1 {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.block2 {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.block3 {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.block4 {
+  display: inline-block;
+  margin-right: 35px;
+}
+
+.block5{
+  display: inline-block;
+  margin-right: -35px;
+}
+
+.right {
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 330px;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>JS-TETRIS</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <section class="gameboy">
+    <div class="gameboy">
+      <div class='absolute'>
+        <section>
+          <ul>
+            <div>
+              <li id='score'>Score</li>
+            </div>
+            <div>
+              <li id='level'>Level</li>
+            </div>
+            <div>
+              <li id="lines">Lines</li>
+            </div>
+            <div>
+              <li id="next">Next</li>
+            </div>
+          </ul>
+        </section>
+      </div>
+      <p id="pause" class="absolute"></p>
+      <div id="up" class="absolute"></div>
+      <div id="left-right" class="absolute"></div>
+      <div id="down" class="absolute"></div>
+      <div id="left" class="absolute"></div>
+      <div id="start" class="absolute"></div>
+      <canvas id="gameCanvas" width="280" height="400"></canvas>
+      <div class="reset">
+        <div class="reset">
+          <div class="reset">
+            <div class="reset">
+              <button id='buttonstart' type="button" name="button"></button>
+              <button id='button1' type="button" name="button"></button>
+              <button id='button2' type="button" name="button"></button>
+              <button id='button3' type="button" name="button"></button>
+            </div>
+          </div>
+        </div>
+        <p class='reset bold block4'>Start(S)</p>
+        <p class='reset bold block1'>Reset(R)</p>
+        <p class='reset bold block1'>Sound(S)</p>
+        <p class='reset bold block2'>Pause(P)</p>
+      </div>
+      <div class="reset">
+        <button id='button4' type="button" name="button"></button>
+        <br>
+        <p class='reset bolds block1'>Rotation</p>
+      </div>
+      <div class="reset">
+        <button id='button5' type="button" name="button"></button><br>
+        <p class='reset right block5'>Drop</p>
+      </div>
+    </div>
+  </section>
+  <script src="tetrimino.js" type="text/javascript"></script>
+  <script src="app.js" type="text/javascript"></script>
+  <script src="scoreboard.js" type="text/javascript"></script>
+  <script src="gameboybuttons.js" type="text/javascript"></script>
+  <script src="keypress.js" type="text/javascript"></script>
+  <script src="sounds.js" type="text/javascript"></script>
+  <script src="gameSpeedUp.js" type="text/javascript"></script>
+</body>
+
+</html>
